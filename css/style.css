@@ -144,6 +144,7 @@ a
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .work-col,.work-col2
 {
@@ -162,42 +163,23 @@ a
     padding-left: 50px;
 }
 
-
-.work-container
+.about-more-btn
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.work-sec
-{
-    width: 49%;
-    display: flex;
-    align-items: center;
-    background: #fff;
+    padding: 15px 20px;
+    background: rgb(226, 140, 12);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
     margin-top: 20px;
-    padding: 20px;
-    border-radius: 10px;
 }
-.work-sec:hover
+
+.about-more-btn:hover
 {
-    background: rgb(51, 49, 49); 
-    color: #fff;
+    background: rgb(226, 183, 12);
 }
-.work-sec:hover p
-{
-    color: rgba(255, 255, 255, 0.69);
-}
-.work-sec:hover i
-{
-    color: #fff;
-}
-.work-sec i
-{
-    font-size: 40px;
-    margin-right: 15px;
-    color: rgb(226, 140, 12);
-}
+
 
 
 
@@ -449,46 +431,9 @@ a
     color:#fff;
 }
 
-#pricing
-{
-    padding-top: 100px;
-    padding-bottom:100px;
-    background: rgba(238, 238, 238, 0.397);
-}
-.price-container
-{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 70px;
-}
-.price-col
-{
-    width: 23%;
-    background: #fff;
-    text-align: center;
-    padding: 40px 20px;
-}
-.price-col:hover
-{
-    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
-}
-.p-label
-{
-    color:rgb(226, 140, 12);
-    margin-bottom: 30px;
-}
-.p-btn
-{
-    padding: 15px 20px;
-    border: none;
-    background: rgb(226, 140, 12);
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 40px;
-}
+
+
+
 
 #footer
 {
@@ -688,7 +633,7 @@ a
     bottom: -130px;
     left: 0;
     transition: all .5s;
-    
+    width: 100%;
 }
 .project-info a
 {
